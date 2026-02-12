@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Flex</title>
+    <style>
+        .flex-container{
+            width: 100%;
+            min-height: 90vh;
+            border: 2px solid gray;
+            border-radius: 5px;
+            box-shadow: 4px 4px 4px black;
+            display: flex;
+            /* properties and attributes of display flex */
+            flex-direction: row; /*row or column*/
+            flex-wrap: wrap;
+            gap: 20px;
+            /* flex-start, flex-end, center, space-between, space-around, space-evenly */
+            justify-content: center; 
+            /* horizontal axis */
+            align-items: flex-start; 
+            /* vertical axis */
+        }
+        .flex-item{
+            width: 200px;
+            height: 200px;
+            background-color: green;
+        }
+        .flex-item.odd{
+            background-color: green;
+        }
+        .flex-item.even{
+            background-color: red;
+        }
+        .flex-item:hover{
+            border-radius: 50%;
+            transition: 1s;
+            cursor: pointer;
+        }
+        /* .flex-item:nth-child(1){
+            background-color: red;
+        }
+        .flex-item:nth-child(2){
+            background-color: blue;
+        }
+        .flex-item:nth-child(3){
+            background-color: black;
+        }
+        .flex-item:nth-child(4){
+            background-color: purple;
+        }
+        .flex-item:nth-child(5){
+            background-color: orange;
+        } */
+        
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item odd"></div>
+        <div class="flex-item even"></div>
+        <div class="flex-item odd"></div>
+        <div class="flex-item even"></div>
+        <div class="flex-item odd"></div>
+        <div class="flex-item even"></div>
+        <div class="flex-item odd"></div>
+        <div class="flex-item even"></div>
+        <div class="flex-item odd"></div>
+        <div class="flex-item even"></div>
+        <div class="flex-item odd"></div>
+        <div class="flex-item even"></div>
+        <div class="flex-item odd"></div>
+        <div class="flex-item even"></div>
+        <div class="flex-item odd"></div>
+        <div class="flex-item even"></div>
+        <div class="flex-item odd"></div>
+        <div class="flex-item even"></div>
+        <div class="flex-item odd"></div>
+        <div class="flex-item even"></div>
+    </div>
+</body>
+</html>

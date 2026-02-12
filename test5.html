@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNBABEL HEADER FLEX</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Avenir Next World"
+                            -apple-system
+                            BlinkMacSystemFont
+                            "Segoe UI"
+                            Roboto (woff)
+                            "Helvetica Neue"
+                            Arial
+                            "Noto Sans"
+                            sans-serif
+                            "Apple Color Emoji"
+                            "Segoe UI Emoji"
+                            "Segoe UI Symbol"
+                            "Noto Color Emoji";
+        }
+        body{
+            background-color: #faf4eb;
+        }
+        header{
+            width: 100%;
+            height: 100px;
+            background-color: white;
+            padding: 10px 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo img{
+            width: 200px;
+        }
+        .nav-list{
+            display: flex;
+            gap: 20px;
+            height: 60px;
+            width: 60%;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .nav-list ul{
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            gap: 20px;
+        }
+        .nav-list ul li{
+            list-style: none;
+            font-size: 20px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .nav-list button{
+            max-width: 20%;
+            width: 150px;
+            height: 100%;
+            font-size: 18px;
+            font-weight: 400;
+            border-bottom-left-radius: 30px;
+            border-top-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            border-top-right-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="https://unbabel.com/"><img src="./imgi_24_default.png" alt=""></a>
+        </div>
+        <div class="nav-list">
+            <ul>
+                <li>Language Operations</li>
+                <li>Solutions</li>
+                <li>Platform</li>
+                <li>Resources</li>
+                <li>Company</li>
+                <li>Login</li>
+            </ul>
+            <button>Get a demo</button>
+        </div>
+    </header>
+</body>
+</html>
